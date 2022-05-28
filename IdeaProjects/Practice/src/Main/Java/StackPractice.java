@@ -30,8 +30,8 @@ public class StackPractice {
         stack.push(4);
         stack.push(5);
 
-   //     System.out.println(stack.show());
-
+       // System.out.println(stack.show());
+        System.out.println(stack.search(3)); // 3
         System.out.println(stack.size()); // 5
 
         System.out.println(stack.peek()); // 5
@@ -40,7 +40,6 @@ public class StackPractice {
         System.out.println(stack.pop()); // 4
         System.out.println(stack.pop()); // 3
 
-    //    System.out.println(stack.show());
 
     }
 }

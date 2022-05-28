@@ -3,7 +3,6 @@ enum Rainbow { RED, ORANGE, YELLOW, GREEN, BLUE, NAVY, PURPLE}
 
 public class EnumPractice {
     public static void main(String[] args) {
-
         Rainbow r1 = Rainbow.RED;
         Rainbow r2 = Rainbow.ORANGE;
         Rainbow r3 = Enum.valueOf(Rainbow.class, "RED");

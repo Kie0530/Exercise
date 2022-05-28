@@ -43,5 +43,6 @@ public class QueuePractice {
         queue.pull(); // 2 꺼내기
 
         System.out.println(queue.show()); // [3, 4, 5];
+
     }
 }
